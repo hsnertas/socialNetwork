@@ -1,0 +1,33 @@
+{
+  "name": "socialnetwork",
+  "version": "1.0.0",
+  "description": "Social network for devolopers",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsnertas/socialNetwork.git"
+  },
+  "author": "Hasan Ertas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hsnertas/socialNetwork/issues"
+  },
+  "homepage": "https://github.com/hsnertas/socialNetwork#readme"
+}
